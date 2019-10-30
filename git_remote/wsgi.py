@@ -1,5 +1,5 @@
 """
-WSGI config for git_remote_prod project.
+WSGI config for git_remote project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'git_remote_prod.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'git_remote.settings')
 
 application = get_wsgi_application()
